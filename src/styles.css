@@ -1,0 +1,176 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* サイドメニュー用のスタイル */
+.sidelist {
+  /* float: right; */
+  right: 0%;
+  /* border: solid #d8a23e; */
+  margin: 0px 0px 0px 0px;
+  /* margin: auto; */
+  /* z-index: "80"; */
+  z-index: 70;
+  /* top: 40%; */
+
+  /* left: 322px; */
+  position: absolute;
+}
+
+.sidelist2 {
+  float: right;
+  /* border: solid #d8a23e; */
+  /* margin: 0px 10px 20px 0px; */
+  margin: auto;
+  /* z-index: "80"; */
+  z-index: 70;
+  /* top: 40%; */
+
+  /* left: 322px; */
+  /* position: absolute; */
+}
+
+.leftside {
+  /* float: right; */
+  display: "inline-block";
+  border: solid #d8a23e;
+  margin: 0px 0px 0px 0px;
+
+  /* zindex: 1000; */
+}
+
+.dough_img_class {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 20px;
+}
+
+.Doughfnc_id {
+  /* float: left; */
+  /* display: inline-block; */
+  position: relative;
+}
+.topping_list {
+  display: "inline-block";
+  /* border: solid #d8a23e; */
+}
+
+.ing_detail {
+  /* display: inline-block; */
+  border: solid #3e9ad8;
+  text-align: left;
+  padding: 10px 0px 0px 20px;
+}
+
+.ing_detail_sum {
+  display: inline-block;
+}
+
+/* サイドメニューの中のトッピングの種類のスタイル */
+.opt_menu {
+  padding: 0px 0px 0px 0px;
+  text-align: left;
+  /* float: left; */
+}
+
+/* トッピングの編集用パネルのスタイル */
+.buttomside {
+  margin: 10px 10px 20px 0px;
+  padding: 0 80% 0px 0px;
+  text-align: left;
+  border: solid #d8a23e;
+}
+
+/* レビュー用Canvasの上のDiv　　使ってないかも */
+.div_canv {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  float: left;
+}
+/* 出来上がり図用のキャンバスのクラス１ */
+.review_canvas {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 20px;
+
+  /* border: solid #d8a23e; */
+}
+
+/* 出来上がり図用のキャンバスのクラス２
+大きさを変更するためにこのクラスを追加する。
+*/
+.review_canvas2 {
+  transition-duration: 1s;
+  transform: scale(0.5, 0.5);
+  transform-origin: left top;
+  /* margin: 0px 20px -90px 0px; */
+}
+
+/* レビューモード時のサイドメニュー */
+.back_to_edit {
+  float: right;
+  transition-duration: 2s;
+  transition-property: background-color; /*アニメーションをcolorのプロパティのみ適用*/
+  /* transition-duration: 0.5s; */
+
+  /* animation-duration: 3s; */
+  /* animation-name: slidein; */
+  /* float: right; */
+  background: #d8a23e;
+  border: solid #d8a23e;
+  /* transition-duration */
+}
+
+/* レビューモード時のサイドメニュー */
+.back_to_edit:hover {
+  transition-duration: 2s;
+  transition-property: height;
+
+  /* height: 200px; */
+}
+
+/* 住所情報の入力機能のクラス */
+.input_order {
+  /* display: block; */
+
+  float: right;
+}
+
+/* 住所情報の入力画面のボタン */
+.check_buttons {
+  display: inline-block;
+  float: left;
+  /* margin: 10px */
+}
+
+#Dough_img2 {
+  z-index: -9;
+  position: "absolute";
+}
+
+.font_block {
+  color: rgba(90, 80, 80, 0.5);
+}
+
+/* ------------ */
+
+.test_border {
+  display: inline-block;
+  border: solid #006eff;
+  margin: 0px 10px 20px 0px;
+  padding: 0px 10px 20px 0px;
+}
+
+/* for test css */
+.test_border_1 {
+  border: solid #d8a23e;
+}
+
+.testindex {
+  z-index: 90;
+  position: absolute;
+  /* float: right; */
+}
+
+.not_moving {
+  /* width: "50"; */
+}
